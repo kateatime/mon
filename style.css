@@ -1,0 +1,209 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'GolosTextRegular';
+  src: url("fonts/Golos-Text_Regular.woff2") format("woff2"), url("fonts/Golos-Text_Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GolosTextMedium';
+  src: url("fonts/Golos-Text_Medium.woff2") format("woff2"), url("fonts/Golos-Text_Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RoadRadio';
+  src: url("fonts/RoadRadio_Regular.woff2") format("woff2"), url("fonts/RoadRadio_Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GraphikLCGRegular';
+  src: url("fonts/GraphikLCG-Regular.woff2") format("woff2"), url("fonts/GraphikLCG-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu {
+  font-family: 'GolosTextRegular';
+  color: #262633;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1290px;
+  padding: 0 29px;
+  height: 92px;
+  font-size: 15px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 560px;
+}
+
+.menu .nav img {
+  width: 32px;
+  height: 12px;
+}
+
+.menu .nav ul {
+  margin-left: 59px;
+}
+
+.menu .nav ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 46px;
+}
+
+.menu .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.menu .logo img {
+  width: 132px;
+}
+
+.menu .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 560px;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.menu .contacts .search {
+  margin-left: 23px;
+}
+
+.menu .contacts .email-phone {
+  margin-left: 58px;
+}
+
+.menu .contacts .email-phone .phone {
+  font-family: "GolosTextMedium";
+  font-size: 15px;
+}
+
+.menu .contacts .email-phone .email {
+  font-family: 'GraphikLCGRegular';
+  color: #797986;
+  font-size: 13px;
+}
+
+.menu .contacts input {
+  width: 190px;
+  height: 52px;
+  border-radius: 14px;
+  background-color: #BF2738;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+  outline-offset: 0;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'RoadRadio';
+  margin-left: 59px;
+}
+
+.breadcrumb-wrap {
+  width: 100%;
+  font-family: 'GolosTextRegular';
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 12px;
+  color: black;
+  content: "·\00a0";
+}
+
+ul.breadcrumb {
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+}
+
+ul.breadcrumb a {
+  color: #797986;
+  text-decoration: none;
+}
+
+ul.breadcrumb a.activ {
+  color: #C9C9CE;
+}
+
+.main-header {
+  width: 100%;
+  font-size: 46px;
+  font-family: 'RoadRadio';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
